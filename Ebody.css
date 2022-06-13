@@ -1,0 +1,133 @@
+.k{
+    margin: 0px 15px;
+    cursor: pointer;
+    background-color: #29756a;
+    color: whitesmoke;
+    transition: 0.4s ease-in-out;
+}
+.z{
+    cursor: pointer;
+    background-color: #29756a;
+    color: whitesmoke;
+    transition: 0.4s ease-in-out;
+}
+.nav2 .z:hover{
+    transform: rotate(260deg);
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 120px;
+}
+.nav2 .nav2-left,.nav2.nav2-right,.nav2.nav2-right{
+    flex-basis: 30%;
+    margin: auto;
+    cursor: pointer;
+}
+.nav2-left>span{
+    font-size: 20px;
+    color: #29756a;
+
+}
+.nav2 .k:hover{
+    transform: rotate(260deg);
+}
+
+.nav3>ul{
+    list-style:  none;
+    text-align: center;
+
+}
+.nav3 ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.nav3 ul li{
+    display: inline-block;
+    width: 150px;
+    position:relative;
+    z-index: 99;
+   
+}
+.nav3 ul li a:hover{
+    color: #29756a;
+
+}
+.nav3 ul ul{
+    position:absolute;
+    top:70px;
+    display: none ;
+}
+.nav3 ul li:hover>ul{
+    display: block;
+}
+.feature{
+
+    height:60vh;
+    width:100%;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wearables/Unrec/Hero/Smartwatches/Under/1999/Smartwatches_Homepage_DesktopHeroTemplate_3000x1200._CB634570851_.jpg");
+     background-size: cover;
+     background-position-x:bottom;
+     position: relative;
+}
+.feature-text{
+    margin-top:20%;
+    margin-left: 10%;
+    max-width: 500px;
+    position: absolute;
+    color:whitesmoke;
+    letter-spacing: 5%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+
+}
+.feature-text button{
+    padding:10px,20px;
+    border: none;
+    outline: none;
+    background-color: rgb(18, 74, 146);
+    color: white;
+    font-size:25px;
+}
+.brand{
+    padding:50px 100px;
+
+}
+.product>h1{
+    color: #29756a;
+    letter-spacing: 0.2rem;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+}
+.product{
+    text-align: center;
+}
+.product>h1>span{
+    color:rgb(23, 92, 138)
+}
+.product>p{
+    font-size: 20px;
+    color: gray;
+}
+.body>p{
+    font-size: 18px;
+    color: #009292;
+    font-size: 18px;
+
+}
+.button{
+    margin-bottom:  20px;
+    
+}
+.icon1{
+    color: yellow;
+}
+.button>button{
+    color: #1d5878;
+}

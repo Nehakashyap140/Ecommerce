@@ -1,0 +1,32 @@
+.footer>h2{
+    font-family: 'Montserrat', sans-ser;
+    color: #009292;
+}
+  .no{
+      background-color:black
+      
+  }
+  .footer ul li a{
+      text-decoration: none;
+      color: #009292;
+      font-size: 18px;
+
+  }
+  ul{
+      List-style: none;
+  }
+  .icon{
+      color: #009292;
+      
+  }
+   .yee:hover{
+    transform: rotate(260deg);
+   }
+.yee{
+    cursor: pointer;
+      transition: 0.4s ease-in-out;
+      margin: 0px 15px;
+      
+}
+ 
+  
